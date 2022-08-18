@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Getx Base',
           getPages: RouteManager.pages,
-          initialRoute: RouteManager.splash,
+          initialRoute: RouteManager.login,
           initialBinding: BaseBinding(),
           translationsKeys: AppTranslation.translations,
           fallbackLocale: const Locale('vi', 'VN'),

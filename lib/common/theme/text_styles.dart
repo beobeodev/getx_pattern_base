@@ -3,10 +3,84 @@ import 'package:getx_pattern_base/common/constants/font_family.dart';
 import 'package:getx_pattern_base/common/theme/palette.dart';
 
 abstract class TextStyles {
-  static const TextStyle mediumRegularText = TextStyle(
+  // Regular
+  static const TextStyle regularText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w400,
+  );
+  static const TextStyle s11regularText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w400,
+    fontSize: 11,
+  );
+  static const TextStyle s14regularText = TextStyle(
     fontFamily: FontFamily.raleway,
     color: Palette.zodiacBlue,
     fontWeight: FontWeight.w400,
     fontSize: 14,
+  );
+  static const TextStyle s16regularText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w400,
+    fontSize: 16,
+  );
+  static const TextStyle s17regularText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w400,
+    fontSize: 17,
+  );
+
+  // Medium
+  static const TextStyle mediumText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w500,
+  );
+  static const TextStyle s11MediumText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w500,
+    fontSize: 11,
+  );
+  static const TextStyle s14MediumText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w500,
+    fontSize: 14,
+  );
+  static const TextStyle s17MediumText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w500,
+    fontSize: 17,
+  );
+
+  // Bold
+  static const TextStyle boldText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w700,
+  );
+  static const TextStyle s11BoldText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w700,
+    fontSize: 11,
+  );
+  static const TextStyle s14BoldText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w700,
+    fontSize: 14,
+  );
+  static const TextStyle s17BoldText = TextStyle(
+    fontFamily: FontFamily.raleway,
+    color: Palette.zodiacBlue,
+    fontWeight: FontWeight.w700,
+    fontSize: 17,
   );
 }
