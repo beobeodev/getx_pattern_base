@@ -21,12 +21,6 @@ abstract class TextStyles {
     fontWeight: FontWeight.w400,
     fontSize: 14,
   );
-  static const TextStyle s16regularText = TextStyle(
-    fontFamily: FontFamily.raleway,
-    color: Palette.zodiacBlue,
-    fontWeight: FontWeight.w400,
-    fontSize: 16,
-  );
   static const TextStyle s17regularText = TextStyle(
     fontFamily: FontFamily.raleway,
     color: Palette.zodiacBlue,
