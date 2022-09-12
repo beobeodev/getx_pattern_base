@@ -38,7 +38,7 @@ class LoginController extends GetxController {
     showPassword.toggle();
   }
 
-  Future<void> onTapLoginButton() async {
+  Future<void> login() async {
     errorText.value = '';
 
     if (isLoading.value) {
@@ -56,10 +56,12 @@ class LoginController extends GetxController {
 
     try {
       final Map<String, dynamic> rawData = await authRepository.login(formBody);
+
+      log(rawData.toString());
     } on DioError catch (dioError) {
       log('Error in onTapLoginButton: ${dioError.response.toString()}');
       if (dioError.response?.statusCode == 401) {
-        errorText.value = 'Sai tên đăng nhập hoặc mật khẩu';
+        errorText.value = LocaleKeys.validate_incorrect_email_password.tr;
       }
     } catch (e) {
       log('Error in onTapLoginButton: ${e.toString()}');

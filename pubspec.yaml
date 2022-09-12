@@ -40,7 +40,9 @@ dependencies:
   get_it: ^7.2.0
   dio: ^4.0.6
   flutter_dotenv: ^5.0.2
+  flutter_svg: ^1.1.4
   json_annotation: ^4.6.0
+  async: ^2.8.2
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +72,7 @@ flutter:
   assets:
     - assets/
     - assets/images/
+    - assets/images/snackbar/
     - assets/locales/
     - assets/secure/
 

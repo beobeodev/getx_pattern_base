@@ -17,6 +17,8 @@ class LocaleKeys {
   static const login_login = 'login_login';
   static const validate_username = 'validate_username';
   static const validate_password = 'validate_password';
+  static const validate_incorrect_email_password =
+      'validate_incorrect_email_password';
   static const dialog_no = 'dialog_no';
   static const dialog_yes = 'dialog_yes';
 }
@@ -32,6 +34,7 @@ class Locales {
     'login_login': 'Đăng nhập',
     'validate_username': 'Vui lòng nhập tên đăng nhập',
     'validate_password': 'Vui lòng nhập mật khẩu',
+    'validate_incorrect_email_password': 'Sai tên đăng nhập hoặc mật khẩu',
     'dialog_no': 'Không',
     'dialog_yes': 'Có',
   };

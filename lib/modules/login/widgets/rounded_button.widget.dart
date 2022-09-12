@@ -15,7 +15,6 @@ class RoundedButton extends StatelessWidget {
   final Color textColor;
   final String content;
   final bool isLoading;
-  final bool isDisable;
 
   const RoundedButton({
     Key? key,
@@ -29,20 +28,19 @@ class RoundedButton extends StatelessWidget {
     this.textColor = Colors.white,
     required this.content,
     this.isLoading = false,
-    this.isDisable = false,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return TextButton(
-      onPressed: isDisable ? null : onPressed,
+      onPressed: isLoading ? null : onPressed,
       style: TextButton.styleFrom(
         fixedSize: Size(width, height),
         minimumSize: Size(width, height),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(borderRadius),
         ),
-        backgroundColor: isDisable ? disableBackgroundColor : backgroundColor,
+        backgroundColor: backgroundColor,
       ),
       child: isLoading
           ? const LoadingDot()

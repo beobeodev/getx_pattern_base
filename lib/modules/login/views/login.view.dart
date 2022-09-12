@@ -11,8 +11,8 @@ class LoginScreen extends GetView<LoginController> {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onPanDown: (_) {
+    return Listener(
+      onPointerDown: (_) {
         FocusManager.instance.primaryFocus?.unfocus();
       },
       child: Scaffold(
@@ -31,7 +31,7 @@ class LoginScreen extends GetView<LoginController> {
                 ),
                 Obx(
                   () => RoundedButton(
-                    onPressed: controller.onTapLoginButton,
+                    onPressed: controller.login,
                     content: LocaleKeys.login_login.tr,
                     isLoading: controller.isLoading.value,
                   ),

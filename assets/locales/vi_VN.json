@@ -7,7 +7,8 @@
   },
   "validate": {
     "username": "Vui lòng nhập tên đăng nhập",
-    "password": "Vui lòng nhập mật khẩu"
+    "password": "Vui lòng nhập mật khẩu",
+    "incorrect_email_password": "Sai tên đăng nhập hoặc mật khẩu"
   },
   "dialog": {
     "no": "Không",

@@ -1,5 +1,5 @@
 import 'package:get_it/get_it.dart';
-import 'package:getx_pattern_base/modules/base/data/datasources/auth.datasource.dart';
+import 'package:getx_pattern_base/modules/base/data/datasources/base_datasource.export.dart';
 import 'package:getx_pattern_base/modules/base/data/repositories/auth.repository.dart';
 import 'package:getx_pattern_base/modules/home/data/datasources/local/user.datasource.dart';
 import 'package:getx_pattern_base/modules/home/data/datasources/remote/user.datasource.dart';
@@ -11,6 +11,7 @@ void initDependencies() {
   //* DATA SOURCES
   //Auth
   getIt.registerLazySingleton(() => AuthRemoteDataSource());
+  getIt.registerLazySingleton(() => AuthLocalDataSource());
   // User
   getIt.registerLazySingleton(() => UserLocalDataSource());
   getIt.registerLazySingleton(() => UserRemoteDataSource());
@@ -25,6 +26,9 @@ void initDependencies() {
   );
   // Auth
   getIt.registerLazySingleton(
-    () => AuthRepository(remoteDataSource: getIt.get<AuthRemoteDataSource>()),
+    () => AuthRepository(
+      remoteDataSource: getIt.get<AuthRemoteDataSource>(),
+      localDataSource: getIt.get<AuthLocalDataSource>(),
+    ),
   );
 }
