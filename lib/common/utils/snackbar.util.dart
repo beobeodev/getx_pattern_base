@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:getx_pattern_base/common/constants/asset_paths.dart';
-import 'package:getx_pattern_base/common/theme/palette.dart';
-import 'package:getx_pattern_base/common/theme/text_styles.dart';
+import 'package:mobile/common/constants/asset_paths.dart';
+import 'package:mobile/common/theme/palette.dart';
+import 'package:mobile/common/theme/text_styles.dart';
 
 abstract class SnackbarUtil {
   static void showSuccess(String message, BuildContext context) {

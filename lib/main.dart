@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:getx_pattern_base/app.dart';
-import 'package:getx_pattern_base/common/constants/asset_paths.dart';
-import 'package:getx_pattern_base/injector.dart';
+import 'package:mobile/app.dart';
+import 'package:mobile/common/constants/asset_paths.dart';
+import 'package:mobile/injector.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 Future<void> main() async {

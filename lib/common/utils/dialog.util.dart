@@ -2,10 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:getx_pattern_base/common/theme/palette.dart';
-import 'package:getx_pattern_base/common/theme/text_styles.dart';
-import 'package:getx_pattern_base/generated/locales.g.dart';
-import 'package:getx_pattern_base/modules/login/widgets/rounded_button.widget.dart';
+import 'package:mobile/common/theme/palette.dart';
+import 'package:mobile/common/theme/text_styles.dart';
+import 'package:mobile/generated/locales.g.dart';
+import 'package:mobile/modules/login/widgets/rounded_button.widget.dart';
 
 abstract class DialogUtil {
   static void showConfirm({

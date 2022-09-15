@@ -1,3 +1,3 @@
 abstract class FontFamily {
-  static const String raleway = 'Raleway';
+  static const String mulish = 'Mulish';
 }

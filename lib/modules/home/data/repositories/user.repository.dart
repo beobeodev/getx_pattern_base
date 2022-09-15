@@ -1,4 +1,4 @@
-import 'package:getx_pattern_base/modules/home/data/datasources/index.dart';
+import 'package:mobile/modules/home/data/datasources/index.dart';
 
 class UserRepository {
   final UserLocalDataSource localDataSource;

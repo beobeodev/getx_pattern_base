@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:getx_pattern_base/common/constants/hive_keys.dart';
-import 'package:getx_pattern_base/common/utils/hive/hive_helper.dart';
-import 'package:getx_pattern_base/modules/base/data/models/user.model.dart';
+import 'package:mobile/common/constants/hive_keys.dart';
+import 'package:mobile/common/utils/hive/hive_helper.dart';
+import 'package:mobile/modules/base/data/models/user.model.dart';
 
 class AuthLocalDataSource {
   Future<UserModel?> getUserProfile() async {

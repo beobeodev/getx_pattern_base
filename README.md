@@ -1,4 +1,4 @@
-# getx_pattern_base
+# mobile
 
 A new Flutter project.
 

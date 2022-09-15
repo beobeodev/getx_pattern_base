@@ -1,10 +1,10 @@
 import 'package:get/route_manager.dart';
-import 'package:getx_pattern_base/modules/home/bindings/home.binding.dart';
-import 'package:getx_pattern_base/modules/home/views/home.view.dart';
-import 'package:getx_pattern_base/modules/login/bindings/login.binding.dart';
-import 'package:getx_pattern_base/modules/login/views/login.view.dart';
-import 'package:getx_pattern_base/modules/welcome/views/onboard.view.dart';
-import 'package:getx_pattern_base/modules/welcome/views/splash.view.dart';
+import 'package:mobile/modules/home/bindings/home.binding.dart';
+import 'package:mobile/modules/home/views/home.view.dart';
+import 'package:mobile/modules/login/bindings/login.binding.dart';
+import 'package:mobile/modules/login/views/login.view.dart';
+import 'package:mobile/modules/welcome/views/onboard.view.dart';
+import 'package:mobile/modules/welcome/views/splash.view.dart';
 
 abstract class RouteManager {
   static const String splash = '/splash';

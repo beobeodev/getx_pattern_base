@@ -1,9 +1,9 @@
-name: getx_pattern_base
+name: mobile
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: "none" # Remove this line if you wish to publish to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -18,7 +18,7 @@ publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: '>=2.17.6 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -88,13 +88,13 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Raleway
+    - family: Mulish
       fonts:
-        - asset: assets/fonts/Raleway-Regular.ttf
+        - asset: assets/fonts/Mulish-Regular.ttf
           weight: 400
-        - asset: assets/fonts/Raleway-Medium.ttf
+        - asset: assets/fonts/Mulish-Medium.ttf
           weight: 500
-        - asset: assets/fonts/Raleway-Bold.ttf
+        - asset: assets/fonts/Mulish-Bold.ttf
           weight: 700
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

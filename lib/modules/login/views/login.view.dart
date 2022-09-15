@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:getx_pattern_base/generated/locales.g.dart';
-import 'package:getx_pattern_base/modules/login/controllers/login.controller.dart';
-import 'package:getx_pattern_base/modules/login/widgets/login_form.widget.dart';
-import 'package:getx_pattern_base/modules/login/widgets/rounded_button.widget.dart';
+import 'package:mobile/generated/locales.g.dart';
+import 'package:mobile/modules/login/controllers/login.controller.dart';
+import 'package:mobile/modules/login/widgets/login_form.widget.dart';
+import 'package:mobile/modules/login/widgets/rounded_button.widget.dart';
 
 class LoginScreen extends GetView<LoginController> {
   const LoginScreen({Key? key}) : super(key: key);

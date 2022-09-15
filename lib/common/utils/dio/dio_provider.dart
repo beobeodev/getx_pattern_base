@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:getx_pattern_base/common/constants/env_keys.dart';
-import 'package:getx_pattern_base/common/utils/dio/dio_interceptor.dart';
+import 'package:mobile/common/constants/env_keys.dart';
+import 'package:mobile/common/utils/dio/dio_interceptor.dart';
 
 class HttpRequestResponse {
   final dynamic data;
