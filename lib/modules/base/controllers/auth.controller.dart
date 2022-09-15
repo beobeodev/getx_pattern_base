@@ -1,9 +1,9 @@
 import 'dart:developer';
 
 import 'package:get/get.dart';
-import 'package:mobile/common/router/route_manager.dart';
-import 'package:mobile/modules/base/data/models/user.model.dart';
-import 'package:mobile/modules/base/data/repositories/auth.repository.dart';
+import 'package:getx_pattern_base/common/router/route_manager.dart';
+import 'package:getx_pattern_base/modules/base/data/models/user.model.dart';
+import 'package:getx_pattern_base/modules/base/data/repositories/auth.repository.dart';
 
 class AuthController extends GetxController {
   final AuthRepository authRepository;

@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:mobile/injector.dart';
-import 'package:mobile/modules/base/controllers/base_controller.export.dart';
-import 'package:mobile/modules/base/data/repositories/auth.repository.dart';
+import 'package:getx_pattern_base/injector.dart';
+import 'package:getx_pattern_base/modules/base/controllers/base_controller.export.dart';
+import 'package:getx_pattern_base/modules/base/data/repositories/auth.repository.dart';
 
 class BaseBinding implements Bindings {
   @override

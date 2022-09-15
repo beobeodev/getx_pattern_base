@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:mobile/injector.dart';
-import 'package:mobile/modules/base/data/repositories/auth.repository.dart';
-import 'package:mobile/modules/login/controllers/login.controller.dart';
+import 'package:getx_pattern_base/injector.dart';
+import 'package:getx_pattern_base/modules/base/data/repositories/auth.repository.dart';
+import 'package:getx_pattern_base/modules/login/controllers/login.controller.dart';
 
 class LoginBinding implements Bindings {
   @override

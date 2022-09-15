@@ -1,6 +1,6 @@
-import 'package:mobile/common/utils/dio/dio_provider.dart';
-import 'package:mobile/modules/base/data/datasources/base_datasource.export.dart';
-import 'package:mobile/modules/base/data/models/user.model.dart';
+import 'package:getx_pattern_base/common/utils/dio/dio_provider.dart';
+import 'package:getx_pattern_base/modules/base/data/datasources/base_datasource.export.dart';
+import 'package:getx_pattern_base/modules/base/data/models/user.model.dart';
 
 class AuthRepository {
   final AuthRemoteDataSource remoteDataSource;

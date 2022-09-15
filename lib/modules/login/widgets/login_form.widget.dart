@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:mobile/common/theme/palette.dart';
-import 'package:mobile/common/widgets/app_text_form_field.widget.dart';
-import 'package:mobile/generated/locales.g.dart';
-import 'package:mobile/modules/login/controllers/login.controller.dart';
+import 'package:getx_pattern_base/common/theme/palette.dart';
+import 'package:getx_pattern_base/common/widgets/app_text_form_field.widget.dart';
+import 'package:getx_pattern_base/generated/locales.g.dart';
+import 'package:getx_pattern_base/modules/login/controllers/login.controller.dart';
 
 class LoginForm extends GetView<LoginController> {
   const LoginForm({Key? key}) : super(key: key);

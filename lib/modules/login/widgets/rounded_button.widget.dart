@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:mobile/common/theme/palette.dart';
-import 'package:mobile/common/theme/text_styles.dart';
-import 'package:mobile/common/widgets/loading_dot.widget.dart';
+import 'package:getx_pattern_base/common/theme/palette.dart';
+import 'package:getx_pattern_base/common/theme/text_styles.dart';
+import 'package:getx_pattern_base/common/widgets/loading_dot.widget.dart';
 
 class RoundedButton extends StatelessWidget {
   final void Function() onPressed;

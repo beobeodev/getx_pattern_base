@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/route_manager.dart';
-import 'package:mobile/common/router/route_manager.dart';
-import 'package:mobile/generated/locales.g.dart';
-import 'package:mobile/modules/base/bindings/base.binding.dart';
+import 'package:getx_pattern_base/common/router/route_manager.dart';
+import 'package:getx_pattern_base/generated/locales.g.dart';
+import 'package:getx_pattern_base/modules/base/bindings/base.binding.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);

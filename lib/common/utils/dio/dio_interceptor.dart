@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
-import 'package:mobile/common/utils/authorization.util.dart';
+import 'package:getx_pattern_base/common/utils/authorization.util.dart';
 
 class DioInterceptor extends Interceptor {
   @override

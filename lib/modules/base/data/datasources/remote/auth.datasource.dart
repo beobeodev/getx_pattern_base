@@ -1,4 +1,4 @@
-import 'package:mobile/common/utils/dio/dio_provider.dart';
+import 'package:getx_pattern_base/common/utils/dio/dio_provider.dart';
 
 class AuthRemoteDataSource {
   Future<HttpRequestResponse> signUp(Map<String, dynamic> formBody) async {

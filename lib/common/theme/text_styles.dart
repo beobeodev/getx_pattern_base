@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mobile/common/constants/font_family.dart';
-import 'package:mobile/common/theme/palette.dart';
+import 'package:getx_pattern_base/common/constants/font_family.dart';
+import 'package:getx_pattern_base/common/theme/palette.dart';
 
 abstract class TextStyles {
   // Regular

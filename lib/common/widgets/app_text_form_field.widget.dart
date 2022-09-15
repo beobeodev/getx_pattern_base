@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mobile/common/theme/palette.dart';
-import 'package:mobile/common/theme/text_styles.dart';
+import 'package:getx_pattern_base/common/theme/palette.dart';
+import 'package:getx_pattern_base/common/theme/text_styles.dart';
 
 class AppTextFormField extends StatelessWidget {
   final TextEditingController? textController;

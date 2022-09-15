@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:mobile/modules/base/controllers/auth.controller.dart';
+import 'package:getx_pattern_base/modules/base/controllers/auth.controller.dart';
 
 class WelcomeController extends GetxController {
   final AuthController authController;

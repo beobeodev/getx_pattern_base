@@ -1,9 +1,9 @@
 import 'package:get_it/get_it.dart';
-import 'package:mobile/modules/base/data/datasources/base_datasource.export.dart';
-import 'package:mobile/modules/base/data/repositories/auth.repository.dart';
-import 'package:mobile/modules/home/data/datasources/local/user.datasource.dart';
-import 'package:mobile/modules/home/data/datasources/remote/user.datasource.dart';
-import 'package:mobile/modules/home/data/repositories/user.repository.dart';
+import 'package:getx_pattern_base/modules/base/data/datasources/base_datasource.export.dart';
+import 'package:getx_pattern_base/modules/base/data/repositories/auth.repository.dart';
+import 'package:getx_pattern_base/modules/home/data/datasources/local/user.datasource.dart';
+import 'package:getx_pattern_base/modules/home/data/datasources/remote/user.datasource.dart';
+import 'package:getx_pattern_base/modules/home/data/repositories/user.repository.dart';
 
 final GetIt getIt = GetIt.instance;
 

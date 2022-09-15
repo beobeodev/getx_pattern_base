@@ -3,8 +3,8 @@ import 'dart:developer';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mobile/generated/locales.g.dart';
-import 'package:mobile/modules/base/data/repositories/auth.repository.dart';
+import 'package:getx_pattern_base/generated/locales.g.dart';
+import 'package:getx_pattern_base/modules/base/data/repositories/auth.repository.dart';
 
 class LoginController extends GetxController {
   final AuthRepository authRepository;
